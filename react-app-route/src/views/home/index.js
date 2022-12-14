@@ -15,7 +15,6 @@ import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import 'swiper/scss/effect-fade';
 
-
 import sliderImg01 from "../../images/slide1.jpg";
 import sliderImg02 from "../../images/slide2.jpg";
 import sliderImg03 from "../../images/slide3.jpg";
