@@ -15,7 +15,7 @@ import Page404 from './page404';
 function Views() {
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={'/portfolio/react_route_app/'}>
 			<div className="wrapper">
 
 				<Header />
