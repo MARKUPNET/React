@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import Home from './home';
 import Page from './page';
 import WPRestAPI from './WpRestApi';
-import HeadLessApp from './headless';
+import HeadLessCmsApp from './headlesscms';
 import ToDoApp from './todo';
 import FormApp from './hooks/form';
 import Page404 from './page404';
@@ -26,7 +26,7 @@ function Views() {
 									<Route path="/" element={<Home/>}/>
 									<Route path="/page" element={<Page />} />
 									<Route path="/wprestapi" element={<WPRestAPI />} />
-									<Route path="/headless" element={<HeadLessApp />} />
+									<Route path="/headlesscms" element={<HeadLessCmsApp />} />
 									<Route path="/todo" element={<ToDoApp />} />
 									<Route path="/hooks/form" element={<FormApp />} />
 									<Route path="*" element={<Page404 />} />

@@ -14,7 +14,7 @@ function Navigation() {
 					<NavLink className="nav-link App-link" to="/wprestapi">WP Rest API</NavLink>
 				</li>
 				<li className="nav-item">
-					<NavLink className="nav-link App-link" to="/headless">ヘッドレスCMS</NavLink>
+					<NavLink className="nav-link App-link" to="/headlesscms">ヘッドレスCMS</NavLink>
 				</li>
 				<li className="nav-item">
 					<NavLink className="nav-link App-link" to="/todo">ToDo</NavLink>

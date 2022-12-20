@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { createClient } from 'microcms-js-sdk'; 
 
-function HeadLessApp() {
+function HeadLessCmsApp() {
 
 	const [resources, setResources] = useState([]);
 
@@ -35,4 +35,4 @@ function HeadLessApp() {
 	)
 }
 
-export default HeadLessApp;
+export default HeadLessCmsApp;

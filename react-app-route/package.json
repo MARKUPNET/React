@@ -1,7 +1,7 @@
 {
   "name": "react-app-route",
   "version": "0.1.0",
-  "homepage": "/portfolio/react_route_app/",
+  "homepage": "http:///portfolio/react_route_app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -53,5 +53,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
