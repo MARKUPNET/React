@@ -1,7 +1,7 @@
 {
   "name": "react-app-route",
   "version": "0.1.0",
-	"homepage": "/portfolio/react_route_app/",
+  "homepage": "/portfolio/react_route_app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -16,10 +16,12 @@
     "bootstrap": "^5.2.3",
     "bulma": "^0.9.4",
     "html-react-parser": "^3.0.4",
+    "microcms-js-sdk": "^2.3.2",
     "node-sass": "^7.0.3",
     "react": "^18.0.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.0.0",
+    "react-hook-form": "^7.41.0",
     "react-paginate": "^8.1.4",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",

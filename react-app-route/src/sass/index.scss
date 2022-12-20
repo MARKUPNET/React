@@ -547,6 +547,14 @@ th {
 		padding: 10px;
 	}
 
+	li.has-child {
+		position: relative;
+	}
+
+	li.has-child:hover ul.sub{
+		display: block;
+	}
+
 	a{
 		color: #fff;
 		text-decoration: none;
@@ -555,6 +563,15 @@ th {
 			color: #f00;
 			border-bottom: 1px solid #f00;
 		}
+	}
+
+	ul.sub{
+		display: none;
+		width: 200%;
+		background-color: #000;
+		position: absolute;
+		left: 0;
+		top: 100%;
 	}
 }
 

@@ -1,15 +1,15 @@
 import {React, Suspense} from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import '../sass/index.scss';
-
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 import Home from './home';
 import Page from './page';
 import WPRestAPI from './WpRestApi';
+import HeadLessApp from './headless';
 import ToDoApp from './todo';
+import FormApp from './hooks/form';
 import Page404 from './page404';
 
 function Views() {
@@ -26,7 +26,9 @@ function Views() {
 									<Route path="/" element={<Home/>}/>
 									<Route path="/page" element={<Page />} />
 									<Route path="/wprestapi" element={<WPRestAPI />} />
+									<Route path="/headless" element={<HeadLessApp />} />
 									<Route path="/todo" element={<ToDoApp />} />
+									<Route path="/hooks/form" element={<FormApp />} />
 									<Route path="*" element={<Page404 />} />
 							</Routes>
 					</Suspense>
